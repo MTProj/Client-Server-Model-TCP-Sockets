@@ -11,19 +11,19 @@ Use provided makefile
 ## Running the program:
 The program can be run in two modes, client or server with the c or s flag. Each mode requires a port number to be specified.
 
-Example: ./client-server c 5000
-This will run a client on port 5000
+Example: ./client-server c 5000  
+This will run a client on port 5000  
 
-Example: ./client-server s 5000
-This will run a server on port 5000
+Example: ./client-server s 5000  
+This will run a server on port 5000  
 
 ## How to log in to server
-LOGIN <SERVER IP ADDRESS> <PORT NUMBER>
-LOGIN 192.168.1.50 5000
+LOGIN <SERVER IP ADDRESS> <PORT NUMBER>  
+LOGIN 192.168.1.50 5000  
 
 ## How to send a message to another client
-SEND <CLIENT IP ADDRESS> <MESSAGE>
-SEND 192.168.1.30 TEST MESSAGE
+SEND <CLIENT IP ADDRESS> <MESSAGE>  
+SEND 192.168.1.30 TEST MESSAGE  
 
 ## Available Client Commands
 
