@@ -9,7 +9,8 @@ Server Features:
 - Backlog messages for logged off clients.  
 - Deliver backlogged messages for newly logged in clients  
 - Facilitate Blocking/Unblocking of clients  
-- Update client with list of clients upon successful login
+- Update client with list of clients upon successful login  
+- Keeps a total of messages sent and received for each client
 
 ## Compilation
 Use provided makefile
@@ -71,10 +72,10 @@ Ex. IP
 PORT - Displays the port number the server is running on  
 Ex. PORT  
 
-LIST - Displays a List of all active clients. The list contains their ID-IP-HOSTNAME-PORT
+LIST - Displays a List of all active clients. The list contains their ID-IP-HOSTNAME-PORT  
 Ex. LIST  
 
-STATISTICS - Display History of clients that have logged in. Statistics contains ID-HOSTNAME-MSGSENT-MSGRECVD-ONLINESTATUS
+STATISTICS - Display History of clients that have logged in. Statistics contains ID-HOSTNAME-MSGSENT-MSGRECVD-ONLINESTATUS  
 Ex. STATISTICS  
 
 BLOCKED - Displays list of clients that the specified IP has blocked.  
