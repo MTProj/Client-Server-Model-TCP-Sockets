@@ -30,14 +30,21 @@ SEND 192.168.1.30 TEST MESSAGE
 
 ## Available Server Commands
 IP - Displays the IP the server is running on  
-Ex. IP  
+Ex. IP     
+
 PORT - Displays the port number the server is running on  
-Ex. PORT
+Ex. PORT  
+
 LIST - Displays a List of all active clients. The list contains their IP, Port , Hostname and Logged in Status  
+Ex. LIST  
+
 STATISTICS  
 Ex. STATISTICS  
+
 BLOCKED - Displays list of clients that the specified IP has blocked.  
 Ex. BLOCKED [IP ADDRESS]  
+
+
 
 
 
