@@ -18,11 +18,11 @@ Example: ./client-server s 5000
 This will run a server on port 5000  
 
 ## How to log in to server
-LOGIN <SERVER IP ADDRESS> <PORT NUMBER>  
+LOGIN [SERVER IP ADDRESS] [PORT NUMBER]  
 LOGIN 192.168.1.50 5000  
 
 ## How to send a message to another client
-SEND <CLIENT IP ADDRESS> <MESSAGE>  
+SEND [CLIENT IP ADDRESS] [MESSAGE]  
 SEND 192.168.1.30 TEST MESSAGE  
 
 ## Available Client Commands
