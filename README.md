@@ -3,7 +3,13 @@ Demonstration of the client server model using TCP sockets.
 
 This program demonstrates the client-server model using TCP socket programming. A server can be started and then clients can login to that server and begin sending messages back and forth. All messages flow through the server and are then passed on to the client.
 
-Both the Client and Server have specific commands that they can use to perform functions.
+Both the Client and Server have specific commands that they can use to perform functions.  
+
+Server Features:  
+- Backlog messages for logged off clients.  
+- Deliver backlogged messages for newly logged in clients  
+- Facilitate Blocking/Unblocking of clients  
+- Update client with list of clients upon successful login
 
 ## Compilation
 Use provided makefile
