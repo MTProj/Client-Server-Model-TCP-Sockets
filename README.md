@@ -71,10 +71,10 @@ Ex. IP
 PORT - Displays the port number the server is running on  
 Ex. PORT  
 
-LIST - Displays a List of all active clients. The list contains their IP, Port , Hostname and Logged in Status  
+LIST - Displays a List of all active clients. The list contains their ID-IP-HOSTNAME-PORT
 Ex. LIST  
 
-STATISTICS  
+STATISTICS - Display History of clients that have logged in. Statistics contains ID-HOSTNAME-MSGSENT-MSGRECVD-ONLINESTATUS
 Ex. STATISTICS  
 
 BLOCKED - Displays list of clients that the specified IP has blocked.  
