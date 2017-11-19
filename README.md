@@ -26,7 +26,7 @@ SEND [CLIENT IP ADDRESS] [MESSAGE]
 SEND 192.168.1.30 TEST MESSAGE  
 
 ## Available Client Commands
-LOGIN - Logs client into specified server
+LOGIN - Logs client into specified server  
 Ex. LOGIN [SERVER IP] [SERVER PORT]  
 
 REFRESH - Obtains a new client list from the server  
@@ -35,10 +35,10 @@ Ex. REFRESH
 SEND - Sends a message to another client  
 Ex. SEND [CLIENT IP] [MESSAGE]  
 
-BROADCAST - Sends a message to all clients
+BROADCAST - Sends a message to all clients  
 Ex. BROADCAST [MESSAGE]  
 
-BLOCK - Blocks specified client IP
+BLOCK - Blocks specified client IP  
 Ex. BLOCK [CLIENT IP]  
 
 UNBLOCK - Unblocks specified client IP  
